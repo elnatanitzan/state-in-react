@@ -21,7 +21,7 @@ export default class ClassComponent2 extends Component {
             <div>
                <h2>Hi, my name is {this.state.name}</h2>
                <h2>My age is {this.state.age}</h2>
-               <h3 onMouseOver={this.changeAge}>Hover me!</h3>
+               <h3 style={{color: "black", cursor: "pointer"}} onMouseOver={this.changeAge}>Hover me!</h3>
             </div>
         )
     }
